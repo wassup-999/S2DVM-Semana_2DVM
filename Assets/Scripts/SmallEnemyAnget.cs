@@ -8,6 +8,7 @@ public class SmallEnemyAnget : MonoBehaviour
     
     void Start()
     {
+        RandomStats();
         GetComponent<NavMeshAgent>();
         Target = GameObject.FindGameObjectWithTag("Player").transform; 
     }
@@ -47,7 +48,7 @@ public class SmallEnemyAnget : MonoBehaviour
     {
        Destroy(gameObject);     
     }
-    /*
+    
     public void RandomStats()
     {
         agent.speed = (Random.Range(1.5f, 4f));
@@ -55,5 +56,5 @@ public class SmallEnemyAnget : MonoBehaviour
         agent.angularSpeed = (Random.Range(120f, 360f));
         agent.stoppingDistance = (Random.Range(0.5f, 1f));
 
-    }*/
+    }
 }
