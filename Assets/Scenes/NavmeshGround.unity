@@ -1916,12 +1916,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 536fcf96b2873914089c2d93c3915d58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Obstacle
-  Prefabobstacle: {fileID: 223613456}
   obstacleCollider: {fileID: 223613462}
   RiseValue: 3
-  DetectRange: 10
-  Enemy: {fileID: 5524145102361182749, guid: 4011143774ae32e46af8f586b386d753, type: 3}
-  isNear: 0
+  GetDownValue: -4
+  isRising: 0
+  counter: 0
+  TimegetDown: 4
 --- !u!208 &223613458
 NavMeshObstacle:
   m_ObjectHideFlags: 0
