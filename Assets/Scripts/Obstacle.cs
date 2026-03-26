@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    //public GameObject Prefabobstacle;
+    public GameObject Prefabobstacle;
     public BoxCollider obstacleCollider;
     public int RiseValue;
     public int GetDownValue;
@@ -36,8 +36,9 @@ public class Obstacle : MonoBehaviour
             counter += Time.deltaTime;
             if (counter >= TimegetDown)
             {
-                gameObject.transform.position = new Vector3(transform.position.x, transform.position.y + GetDownValue, transform.position.z);
+                Prefabobstacle.transform.position = new Vector3(transform.position.x, transform.position.y + GetDownValue, transform.position.z);
                 counter = 0;
+                isRising = false;
             }
             
         }
