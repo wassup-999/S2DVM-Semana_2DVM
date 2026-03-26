@@ -10124,9 +10124,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpecialEnemySpawner
   specialEnemyPrefab: {fileID: 3305690371115988882, guid: 7d4a6e29284c98345ae9ad9a78f24c20, type: 3}
   counter: 0
-  spawnInterval: 5
+  spawnInterval: 2
   currentEnemies: 0
-  maxEnemies: 5
+  maxEnemies: 3
 --- !u!1 &1316058823
 GameObject:
   m_ObjectHideFlags: 0
@@ -13134,7 +13134,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1613967520
 MonoBehaviour:
   m_ObjectHideFlags: 0
